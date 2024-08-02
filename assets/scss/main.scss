@@ -1,0 +1,44 @@
+/* componentes css*/
+@import "_colors";
+@import "_footer";
+@import "_search-bar";
+@import "icon";
+@import "utill";
+@import "card-list";
+@import "_header";
+
+
+/* paginas css*/
+@import "home";
+@import "livro-pagina";
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font: 1.2em/1.62 "fontello", sans-serif;
+    color: var(--cor-text);
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 40em;
+    padding: 0 .62em;
+    position: relative;
+    z-index: 1;
+}
+
+.default-backgroud-color {
+    background-color: var(--cor-fundo);
+}
+
+.section {
+    padding: 1rem 0 2.66rem;
+}
+
+i {
+    font-style: normal;
+}
